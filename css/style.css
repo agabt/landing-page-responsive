@@ -13,7 +13,8 @@ a {
 }
 
 .container {
-    width: 1440px;
+    width: 100%;
+    max-width: 1440px;
     /*height: 1024px;*/
     background-color: #000;
     margin: 0 auto;
@@ -22,8 +23,15 @@ a {
 
 .flex {
     display: flex;
-    flex-direction: row
+    flex-direction: row;
+    align-items: center;
 }
+
+@media screen and (max-width: 1000px) {
+    .flex {
+      flex-direction: column;
+    }
+  }  
 
 .flex-center {
     justify-content: center;
@@ -55,6 +63,7 @@ header>:nth-child(2) {
 
 .menu {
     text-align: center;
+    margin: 2%;
 }
 
 .menu a {
@@ -67,20 +76,20 @@ header>:nth-child(2) {
 }
 
 .body-left {
-    width: 690px;
-    height: 974px;
+    width: 48%;
+    height: 95%;
 }
 
 .body-right {
-    width: 750px;
-    height: 974px;
+    width: 52%;
+    height: 95%;
     background-image: url('../assets/imgs/body.png');
     background-size: cover;
     background-position: top center;
 }
 
 .body-left .text {
-    width: 456px;
+    width: 62%;
     margin: 200px auto 50px;
 }
 
@@ -112,6 +121,7 @@ header>:nth-child(2) {
 
 .social-net {
     margin-top: 100px;
+    flex-flow: wrap;
 }
 
 .social-net i {
@@ -141,6 +151,7 @@ header>:nth-child(2) {
 
 .more-icons {
     margin: 760px 0 0 60px;
+    flex-flow: wrap;
 }
 
 .more-icons i {
@@ -170,7 +181,7 @@ header>:nth-child(2) {
 }
 
 .green-container {
-    width: 700px;
+    width: 95%;
     height: 76px;
     background-color: rgba(66, 255, 0, 0.2);
     margin-top: 270px;
@@ -184,3 +195,9 @@ i {
 i:hover {
     transform: scale(1.3);
 }
+
+@media screen and (max-width: 480px) {
+    .body-left h1 {
+      font-size: 30px;
+    }
+  }  
