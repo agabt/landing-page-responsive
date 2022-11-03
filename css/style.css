@@ -115,6 +115,7 @@ header>:nth-child(2) {
     background-color: transparent;
     background-repeat: no-repeat;
     cursor: pointer;
+    margin-top: 5%;
 }
 
 .btn-arrow:hover {
@@ -229,7 +230,7 @@ i:hover {
     }
 
     .body-left p {
-        font-size: 20px;
+        font-size: 22px;
     }
 
     .btn-arrow {
@@ -240,8 +241,8 @@ i:hover {
     }
 
     .social-net i {
-        width: 35px;
-        height: 35px;
+        width: 36px;
+        height: 36px;
     }
 
     .more-icons i {
@@ -256,7 +257,7 @@ i:hover {
     }
 
     .body-left p {
-        font-size: 16px;
+        font-size: 20px;
     }
 
     .btn-arrow {
@@ -266,8 +267,8 @@ i:hover {
     }
 
     .social-net i {
-        width: 30px;
-        height: 30px;
+        width: 32px;
+        height: 32px;
     }
 
     .more-icons i {
@@ -282,7 +283,7 @@ i:hover {
     }
 
     .body-left p {
-        font-size: 12px;
+        font-size: 18px;
     }
 
     .btn-arrow {
@@ -292,8 +293,8 @@ i:hover {
     }
 
     .social-net i {
-        width: 25px;
-        height: 25px;
+        width: 28px;
+        height: 28px;
     }
 
     .more-icons i {
@@ -308,7 +309,7 @@ i:hover {
     }
 
     .body-left p {
-        font-size: 8px;
+        font-size: 16px;
     }
 
     .btn-arrow {
@@ -318,8 +319,8 @@ i:hover {
     }
 
     .social-net i {
-        width: 20px;
-        height: 20px;
+        width: 24px;
+        height: 24px;
     }
 
     .more-icons i {
