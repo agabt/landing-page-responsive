@@ -223,7 +223,7 @@ i:hover {
     }
 }
 
-@media screen and (max-width: 1280px) {
+@media screen and (max-width: 1200px) {
     .body-left h1 {
         font-size: 60px;
     }
@@ -250,7 +250,7 @@ i:hover {
     }
 }
 
-@media screen and (max-width: 976px) {
+@media screen and (max-width: 991px) {
     .body-left h1 {
         font-size: 50px;
     }
@@ -276,7 +276,7 @@ i:hover {
     }
 }
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 767px) {
     .body-left h1 {
         font-size: 40px;
     }
@@ -302,7 +302,7 @@ i:hover {
     }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 575px) {
     .body-left h1 {
         font-size: 30px;
     }
