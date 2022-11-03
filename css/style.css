@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;400;600;700&family=Roboto:wght@400;700&display=swap');
+
 body {
     margin: 0;
     font-family: 'Raleway', sans-serif;
@@ -29,9 +30,9 @@ a {
 
 @media screen and (max-width: 1000px) {
     .flex {
-      flex-direction: column;
+        flex-direction: column;
     }
-  }  
+}
 
 .flex-center {
     justify-content: center;
@@ -51,7 +52,7 @@ header>div {
 }
 
 header>:nth-child(2) {
-    width: 960px;
+    width: 100%;
 }
 
 .logo {
@@ -63,7 +64,7 @@ header>:nth-child(2) {
 
 .menu {
     text-align: center;
-    margin: 2%;
+    margin: 6%;
 }
 
 .menu a {
@@ -84,8 +85,9 @@ header>:nth-child(2) {
     width: 52%;
     height: 95%;
     background-image: url('../assets/imgs/body.png');
-    background-size: cover;
+    background-size: 100%;
     background-position: top center;
+    background-repeat: no-repeat;
 }
 
 .body-left .text {
@@ -135,22 +137,26 @@ header>:nth-child(2) {
 
 .facebook {
     background-image: url('../assets/icons/facebook.png');
+    background-size: 85%;
 }
 
 .instagram {
     background-image: url('../assets/icons/instagram.png');
+    background-size: 85%;
 }
 
 .twitter {
     background-image: url('../assets/icons/twitter.png');
+    background-size: 85%;
 }
 
 .youtube {
     background-image: url('../assets/icons/youtube.png');
+    background-size: 85%;
 }
 
 .more-icons {
-    margin: 760px 0 0 60px;
+    margin: 100% 0 0 8%;
     flex-flow: wrap;
 }
 
@@ -166,26 +172,31 @@ header>:nth-child(2) {
 
 .map {
     background-image: url('../assets/icons/map.png');
+    background-size: 50%;
 }
 
 .boxes {
     background-image: url('../assets/icons/boxes.png');
+    background-size: 50%;
 }
 
 .layers {
     background-image: url('../assets/icons/layers.png');
+    background-size: 50%;
 }
 
 .heart {
     background-image: url('../assets/icons/heart.png');
+    background-size: 50%;
 }
 
 .green-container {
     width: 95%;
     height: 76px;
     background-color: rgba(66, 255, 0, 0.2);
-    margin-top: 270px;
+    margin-top: 36%;
     float: right;
+    background-position: top center;
 }
 
 i {
@@ -196,8 +207,123 @@ i:hover {
     transform: scale(1.3);
 }
 
+/* Media Queries */
+
+@media screen and (max-width: 1000px) {
+    .body-left {
+        width: 90%;
+    }
+
+    .body-left .text {
+        margin: 0 auto 50px;
+    }
+
+    .body-right {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    .body-left h1 {
+        font-size: 60px;
+    }
+
+    .body-left p {
+        font-size: 20px;
+    }
+
+    .btn-arrow {
+        width: 55px;
+        height: 55px;
+        border-radius: 55px;
+        background-size: 50%;
+    }
+
+    .social-net i {
+        width: 35px;
+        height: 35px;
+    }
+
+    .more-icons i {
+        width: 60px;
+        height: 60px;
+    }
+}
+
+@media screen and (max-width: 976px) {
+    .body-left h1 {
+        font-size: 50px;
+    }
+
+    .body-left p {
+        font-size: 16px;
+    }
+
+    .btn-arrow {
+        width: 50px;
+        height: 50px;
+        border-radius: 50px;
+    }
+
+    .social-net i {
+        width: 30px;
+        height: 30px;
+    }
+
+    .more-icons i {
+        width: 50px;
+        height: 50px;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .body-left h1 {
+        font-size: 40px;
+    }
+
+    .body-left p {
+        font-size: 12px;
+    }
+
+    .btn-arrow {
+        width: 45px;
+        height: 45px;
+        border-radius: 45px;
+    }
+
+    .social-net i {
+        width: 25px;
+        height: 25px;
+    }
+
+    .more-icons i {
+        width: 40px;
+        height: 40px;
+    }
+}
+
 @media screen and (max-width: 480px) {
     .body-left h1 {
-      font-size: 30px;
+        font-size: 30px;
     }
-  }  
+
+    .body-left p {
+        font-size: 8px;
+    }
+
+    .btn-arrow {
+        width: 40px;
+        height: 40px;
+        border-radius: 40px;
+    }
+
+    .social-net i {
+        width: 20px;
+        height: 20px;
+    }
+
+    .more-icons i {
+        width: 30px;
+        height: 30px;
+    }
+}
